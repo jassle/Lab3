@@ -41,15 +41,15 @@ namespace ConsoleApp3
                 {
                     Console.WriteLine(usernum + " Odd");
                 }
-                else if (25 >= usernum )
+                else if (usernum % 2 == 0 & 25 >= usernum )
                 {
                     Console.WriteLine("Even and less than 25");
                 }
-                else if (usernum >= 26 & usernum <= 59)
+                else if (usernum % 2 == 0 & (usernum >= 26 & usernum <= 58))
                 {
                     Console.WriteLine("Greater than 25 Even");
                 }
-                else if (usernum >= 60)
+                else if (usernum % 2 == 0 & usernum <=100 & usernum >= 60)
                 {
                     Console.WriteLine("Greater than 60 Even");
                 }
