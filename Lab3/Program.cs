@@ -45,11 +45,11 @@ namespace ConsoleApp3
                 {
                     Console.WriteLine("Even and less than 25");
                 }
-                else if (usernum >= 26 & )
+                else if (usernum >= 26 & usernum <= 59)
                 {
                     Console.WriteLine("Greater than 25 Even");
                 }
-                else if (usernum > 60)
+                else if (usernum >= 60)
                 {
                     Console.WriteLine("Greater than 60 Even");
                 }
